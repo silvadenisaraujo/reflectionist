@@ -95,7 +95,7 @@ def list() -> None:
         raise typer.Exit()
     typer.secho(f"{len(reflections)} reflections:", fg=typer.colors.BLUE)
     for i, reflection in enumerate(reflections):
-        typer.secho(f"{i + 1}. happened={reflection['happened']}", fg=typer.colors.BLUE)
+        typer.secho(f"{i}. situation={reflection['happened']}", fg=typer.colors.BLUE)
 
 
 @app.command()
