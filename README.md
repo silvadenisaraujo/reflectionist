@@ -1,7 +1,7 @@
 
 # reflectionist
 
-A simple python package that helps you to track your reflections during your day.
+A simple CLI app that helps you to track your reflections during your day.
 
 
 # Why?

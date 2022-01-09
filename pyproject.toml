@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "reflectionist"
-version = "0.1.1"
-description = "A simple python package that helps you to track your reflections during your day."
+version = "0.1.2"
+description = "A simple CLI app that helps you to track your reflections during your day."
 authors = ["Dênis Araújo da Silva <silvadenisaraujo@gmail.com>"]
 readme = "README.md"
 
