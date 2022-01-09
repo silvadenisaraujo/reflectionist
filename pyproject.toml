@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "reflectionist"
+version = "0.1.0"
+description = "A simple python package that helps you to track your reflections during your day."
+authors = ["Dênis Araújo da Silva <silvadenisaraujo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+reflectionist = "reflectionist.cli:app"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.0.3"
+typer = "^0.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^21.12b0"
+pytest-cov = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
